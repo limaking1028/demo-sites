@@ -31,3 +31,11 @@ footer{background:#24211F;color:#E9E4DD;padding:36px 0 28px;font-size:15px}foote
 .mbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:grid;grid-template-columns:1fr 1.4fr;height:calc(var(--mbar) + env(safe-area-inset-bottom));padding-bottom:env(safe-area-inset-bottom);background:#fff;border-top:1px solid var(--line)}
 .mbar a{display:flex;align-items:center;justify-content:center;font-weight:700;text-decoration:none;color:var(--acc-dk)}.mbar .m2{background:#5f6b64;color:#fff}
 @media (min-width:768px){.top nav{display:flex}.hero-grid{grid-template-columns:1.1fr 1fr}.svc{grid-template-columns:repeat(3,1fr)}.gal{grid-template-columns:repeat(4,1fr)}.steps{grid-template-columns:repeat(4,1fr)}.mbar{display:none}body{padding-bottom:0}}
+
+/* owner website-design contact (not the demo company) */
+.demo-bar .owner-wa{display:inline-block;margin:4px 0 0;max-width:100%;font-size:12.5px}@media(min-width:768px){.demo-bar .owner-wa{margin:0 0 0 10px;font-size:13px}}
+.owner-wa{color:#0B5E2E;background:#E3F6E9;border:1px solid #25D366;border-radius:999px;padding:1px 10px;font-weight:700;text-decoration:none;font-size:13px}
+.owner-wa:hover{background:#25D366;color:#fff}
+.owner-tag{font-size:11px;background:#0B5E2E;color:#fff;border-radius:999px;padding:0 6px;margin-right:6px;vertical-align:1px}
+.f-owner{margin-top:.8em}
+footer .owner-wa{color:#0B5E2E}

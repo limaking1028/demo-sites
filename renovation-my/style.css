@@ -211,3 +211,11 @@ footer a{color:#fff}
 
 /* hero eyebrow contrast */
 .hero .eyebrow{display:inline-block;color:#fff;background:rgba(30,24,18,.78);padding:.35em .7em;border-radius:4px;text-shadow:none}
+
+/* owner website-design contact (not the demo company) */
+.demo-bar .owner-wa{display:inline-block;margin:4px 0 0;max-width:100%;font-size:12.5px}@media(min-width:768px){.demo-bar .owner-wa{margin:0 0 0 10px;font-size:13px}}
+.owner-wa{color:#0B5E2E;background:#E3F6E9;border:1px solid #25D366;border-radius:999px;padding:1px 10px;font-weight:700;text-decoration:none;font-size:13px}
+.owner-wa:hover{background:#25D366;color:#fff}
+.owner-tag{font-size:11px;background:#0B5E2E;color:#fff;border-radius:999px;padding:0 6px;margin-right:6px;vertical-align:1px}
+.f-owner{margin-top:.8em}
+footer .owner-wa{color:#0B5E2E}
